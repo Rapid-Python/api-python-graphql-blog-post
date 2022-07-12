@@ -1,4 +1,4 @@
-from app import db
+from .flask_config import db
 
 
 class Post(db.Model):
